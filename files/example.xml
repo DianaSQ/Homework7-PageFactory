@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CrossBrowserTest" parallel="false" thread-count="1">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name ="positive"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation.AddItemsAndRegistration"/>
+        </classes>
+    </test>
+</suite>
